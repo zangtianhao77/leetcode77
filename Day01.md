@@ -31,12 +31,10 @@ class Solution {
 }
 ```
 ***
-## (2) Elements removal
 Problem (27):  https://leetcode.cn/problems/remove-element/
 
 Solution: https://programmercarl.com/0027.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.html
 
-Key: Double Pointer (fast pointer and slow pointer work together, one loop as two loops)
 
 * Fast Pointer: search for elements of new array (array without target)
 * Slow Pointer: point to the new array index
@@ -60,7 +58,6 @@ class Solution {
 }
 ```
 
-2. 相向指针
 ```
 class Solution {
     public int removeElement(int[] nums, int val) {
