@@ -4,7 +4,8 @@ Problem (704): https://leetcode.cn/problems/binary-search/
 
 Solution: https://programmercarl.com/0704.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html
 
-Key: [x, y]
+Key: 1. [x, y]
+     2.ordered and no duplicates
 
 ```
 class Solution {
