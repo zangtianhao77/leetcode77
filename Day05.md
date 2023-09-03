@@ -10,7 +10,7 @@ Key:
 3. 2methods about set x.contains(n) // x.add(n)
 4. x % 10 to get the last digit
 
-'''
+```
 class Solution {
     //when it comes to check if an element appears repeatedly, we will use hashset
     public boolean isHappy(int n) {
@@ -31,4 +31,4 @@ class Solution {
 
     }
 }
-'''
+```
