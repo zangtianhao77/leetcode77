@@ -1,11 +1,14 @@
 # BinaryTree <1>
-## (1) preorder traversal using recursion
+## (1) preorder traversal using recursion\
+
+144.https://leetcode.cn/problems/binary-tree-preorder-traversal/
+
 Key of Recursion:
 1. 确定递归函数的参数和返回值
 public void preorder(TreeNode root, List<Integer> result)
-2. 确定终止条件
+1. 确定终止条件
 if (root==null)
-3. 确定单层递归的逻辑
+1. 确定单层递归的逻辑
 result.add(root.val);
 preorder(root.left, result);
 preorder(root.right, result);
@@ -46,6 +49,7 @@ class Solution {
 ```
 
 ## (2) postorder traversal using recursion
+145.https://leetcode.cn/problems/binary-tree-postorder-traversal/
 ```
 /**
  * Definition for a binary tree node.
@@ -81,6 +85,8 @@ class Solution {
 ```
 
 ## (3) inorder traversal using recursion
+94.https://leetcode.cn/problems/binary-tree-inorder-traversal/
+
 ```
 /**
  * Definition for a binary tree node.
