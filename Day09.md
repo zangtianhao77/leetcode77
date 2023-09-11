@@ -1,5 +1,5 @@
 # BinaryTree <3>
-## (1) level order search
+## (1) level order search with recursion (BFS)
 102.https://leetcode.cn/problems/binary-tree-level-order-traversal/description/
 
 Key: 
