@@ -73,6 +73,8 @@ class Solution {
 ## (2) min depth of binary tree
 111.https://leetcode.cn/problems/minimum-depth-of-binary-tree/
 
+
+key:when left and right children of the current nodes are null, then we find the min depth
 ```
 /**
  * Definition for a binary tree node.
