@@ -7,6 +7,8 @@ Solution: https://www.programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8
 
 Key: preorder->mid, left, right ==  order to enter stack->mid, right, left 
 
+
+![preorder using stack image] (https://code-thinking.cdn.bcebos.com/gifs/%E4%BA%8C%E5%8F%89%E6%A0%91%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%EF%BC%88%E8%BF%AD%E4%BB%A3%E6%B3%95%EF%BC%89.gif)
 ```
 /**
  * Definition for a binary tree node.
