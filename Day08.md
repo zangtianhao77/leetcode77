@@ -6,7 +6,12 @@ Solution: https://www.programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8
 
 
 Key: preorder->mid, left, right ==  order to enter stack->mid, right, left 
-
+1. create new result list
+2. if root is null, return
+3. create stack to store nodes
+4. push the root node ready for pop to list
+5. while stack is not empty, (1) pop the first node in stack (root) (2) add node val to list (3) if right is not null, push right to stack (4) if left is not null, push left to stack -> this makes it pop the left first then right
+6. return list
 
 ![preorder using stack image](https://code-thinking.cdn.bcebos.com/gifs/%E4%BA%8C%E5%8F%89%E6%A0%91%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%EF%BC%88%E8%BF%AD%E4%BB%A3%E6%B3%95%EF%BC%89.gif)
 ```
